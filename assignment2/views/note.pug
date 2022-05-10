@@ -1,0 +1,87 @@
+extends layout
+
+block content
+
+  //- Note Taking script
+  script(src='/javascripts/note.js', defer)
+
+  //- Header
+  header 
+    .align-items-center
+      span(class='header fs-2')
+        | Foogle Keep
+        i(class='bi bi-journal-text')
+
+  //- Main
+  main
+    .row.row-cols-1.row-cols-md-3.mb-3.text-center
+    
+      //- List the Note detail
+      each note in notes
+        .col
+          .card.mb-4.rounded-3.shadow-sm
+            .card-header.py-3.text-white.bg-primary.border-primary.note
+              .my-0.fw-normal
+                | #{note.subject}
+                div
+                  i.bi.icon.bi-pencil-square(data-ref-id=note._id)
+                  i.bi.icon.bi-trash(data-ref-id=note._id)
+            .card-body
+              h5.content #{note.desc}
+              ul.content.list-unstyled.mt-3.mb-4
+                li Location : #{note.location}
+                li Expiry #{note.expiryTimeString}
+                li Create #{note.createTimeString}
+
+    //- Form Submission
+    button#floatingButton.float(type='button' data-bs-toggle='modal' data-bs-target='#noteModal')
+      i.fa.fa-plus.my-float.fs-1
+    
+    //- Modal Dialog
+    #noteModal.modal.fade(tabindex='-1' aria-labelledby='noteLabel' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .modal-header
+            h5#noteLabel.modal-title New Note
+            button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
+          .modal-body
+            form#noteForm(novalidate='')
+              input#refIdField(type='hidden')
+              .mb-3
+                label.col-form-label(for='subject') Subject:
+                input#subject.form-control(type='text' placeholder='Please input the subject' required='')
+                .invalid-feedback
+                  | Invalid Subject
+              .mb-3
+                label.col-form-label(for='description') Description:
+                input#description.form-control(type='text' placeholder='Please input the description' required='')
+                .invalid-feedback
+                  | Invalid Description
+              .mb-3
+                label.col-form-label(for='description') Location:
+                input#location.form-control(type='text' placeholder='Please input the location' required='')
+                .invalid-feedback
+                  | Invalid Location
+              .mb-3
+                label.col-form-label(for='description') Expiry Time:
+                input#expiryTime.form-control(type='text' placeholder='Please input the expiry time (YYYY-MM-DD HH:MM)' required='')
+                .invalid-feedback
+                  | Invalid Expiry Time
+          .modal-footer
+            button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Close
+            button#submitButton.btn.btn-primary(type='button') Proceed
+
+
+  //- Footer
+  footer(class="pt-2 my-md-5 pt-md-5 border-top")
+    .row
+      .col-6.col-md
+        h6 Northeaster University - CS5610 Spring 2022
+      .col-6.col-md
+        h6 Kong Koon Kit (kong.ko@northeastern.edu)
+
+       
+
+  //- Register the Note JSON object in the html
+  script.
+    var notes = !{JSON.stringify(notes).replace(/<\//g, "<\\/")}

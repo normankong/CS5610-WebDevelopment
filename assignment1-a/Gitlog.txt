@@ -1,0 +1,167 @@
+commit 8ca670a90b0c7a0cece2063afb1f7676680d2cc9
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 21:09:06 2022 -0800
+
+    Remove wrong picture
+
+commit 125d88ca23dfca73d1eda2082b309234b29271e0
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 21:01:07 2022 -0800
+
+    Add Project and fix the education validation
+
+commit b49949108f52869c55cae81f445160f1bdc161bd
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 20:57:55 2022 -0800
+
+    Add Fotter CSS and repeat background
+
+commit b9e7b66b8c39e9c51e44c4e635773c6570c24646
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 20:54:53 2022 -0800
+
+    Fix ul problem after validate
+
+commit 32fd7a7e136d4be65886691ac0cdc8862da3d5c7
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 20:52:13 2022 -0800
+
+    Add icon and background image
+
+commit cfca8e37ad6d6efdd70c4b20852b2b3716e186bd
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 20:50:57 2022 -0800
+
+    Add Footer part
+
+commit 5722b7c195f6abfae5cc98a4c67a8c975f4c79a4
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 20:29:39 2022 -0800
+
+    Add images
+
+commit 84de4bddec5e0af0689f297593ca7e9bf83cc0bc
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 20:28:36 2022 -0800
+
+    Add menu and fix the filename and introduction
+
+commit 3769f59effac04ea9276c111cbbb8ce6310d11af
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 20:22:15 2022 -0800
+
+    Change CSS folder and add favicon
+
+commit 27371d0a89cace8ecd1eb7dfe534096146757f0b
+Author: Norman Kong <normankong@gmail.com>
+Date:   Sat Feb 5 20:18:34 2022 -0800
+
+    Init with starter code
+
+commit e31a63763d7099ee8e5d988d8f0eb46c7bd8f716
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:56:51 2022 -0800
+
+    Remove bullet style
+
+commit ddac22ba6443c0acc6aa6c85adb5011a3c4d134f
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:54:46 2022 -0800
+
+    Add Eduction list italic and header last child
+
+commit 2c199622133da87654a2a67216cd03d4eb30a2fa
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:45:48 2022 -0800
+
+    Fix the hover issue
+
+commit a3641b5b99cf7bc44eb52f63cd48764f200346c4
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:44:28 2022 -0800
+
+    Update a href and first letter style
+
+commit eedb122f1bed4044c37f9d4669428d3701155bdd
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:33:53 2022 -0800
+
+    Update index with ID
+
+commit 64ddfade1f68b4294f7041f4bf80efb1affe6f2b
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:32:38 2022 -0800
+
+    Fix the Margin with pixel
+
+commit 111ac2a72061cedea1b82466c3d48b86c09a380e
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:16:57 2022 -0800
+
+    Add dotted line and margin-bottom
+
+commit 3b0a762e6315785111091eec12f665b1c5a1cb35
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:10:58 2022 -0800
+
+    Update Center aligned and background
+
+commit 90b33780ceb73d6687098b2e5a650d78a31624c1
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Feb 1 17:03:24 2022 -0800
+
+    Add External CSS and create new index.html
+
+commit d5507b4a341941f35328556932b5895fc28100bb
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Jan 25 18:10:31 2022 -0800
+
+    Fix section problem
+
+commit f1900de4884cc7af3dc5cc959a56292aa1b1598c
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Jan 25 18:02:44 2022 -0800
+
+    Update Semantic
+
+commit 47aa05c7342165d07ea55459e2e38535a7939809
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Jan 25 17:44:35 2022 -0800
+
+    Fix the UL nested issue
+
+commit 9d869c3fa1f868f52a2ebc2e225c1f189eb17ce5
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Jan 25 17:29:14 2022 -0800
+
+    Refactor image folder
+
+commit 54d3ca3224edc79b82fe6d5436a9759eff3f8a7f
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Jan 25 17:27:21 2022 -0800
+
+    Add img mandatory attribute
+
+commit 53ed46e8840a920eee79d58436046798c4757446
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Jan 25 17:20:14 2022 -0800
+
+    Activity 2 to add HTML5 image and href tag
+
+commit a9d1988bbf0280768dca73004c147f9265d9e1b8
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Jan 25 17:05:26 2022 -0800
+
+    Add favicon and add Language
+
+commit d8db8156a94684a351f52d49c02f4f1869df4f68
+Author: Norman Kong <normankong@gmail.com>
+Date:   Tue Jan 25 16:47:23 2022 -0800
+
+    Activity 2
+
+commit 9ae0ef75082ceecd339288c8754b1b746c2daea2
+Author: Norman Kong <normankong@gmail.com>
+Date:   Mon Jan 24 12:03:02 2022 -0800
+
+    first commit

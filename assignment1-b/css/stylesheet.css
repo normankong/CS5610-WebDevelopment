@@ -1,0 +1,97 @@
+header{
+    background-color: skyblue;
+    padding: 20px;
+}
+
+body  {
+  background-image: url("../images/background.jpeg");
+  background-color: #cccccc;
+  font-family : 'Roboto', sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+main{
+    background-color: cornsilk;
+}
+
+nav{
+    text-align: center;
+    display: flex;
+    z-index: 99;
+    position: sticky;
+    top: 0px;
+    left: 30px;
+}
+
+nav > div {
+    flex: 1;
+}
+
+.light{
+    background-color: rgb(228, 254, 255);
+    color:rgb(129, 254, 255)
+}
+
+.dark{
+    background-color: #cccccc;
+    color:red
+}
+
+.toggleButton{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+footer{
+    background-color: thistle;
+    text-align: center;
+}
+
+footer .icon{
+    width: 20px;
+    height: 20px;
+}
+
+
+.intro{
+    padding: 0px 0px 0px 10px;
+}
+.courses{
+    width: 80%;
+}
+.copyright{
+    font-size: medium;
+    color: #1d1c1c;
+}
+
+.neuImage {
+    width: 100px;
+    height: 100px;
+    padding: 10px 0px 0px 100px;
+}
+
+.profileImage {
+    width: 200px;
+    height: 200px; 
+}
+
+a { color: #ec1212; } 
+a:hover { color: #041a04c4; } 
+a:visited { color: #749e7e; }
+
+
+legend {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 0;
+  font-size: 14px;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+  outline: 1px solid black;
+}

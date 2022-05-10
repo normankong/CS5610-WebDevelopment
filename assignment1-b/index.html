@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 1</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <script defer src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my page</h1>
+        <button class="toggleButton"></button>
+    </header>
+    <main>
+
+        <nav>
+            <div>Home</div>
+            <div><a href="education.html">Education</a></div>
+            <div><a href="project.html">Projects</a></div>
+        </nav>
+        <section class="intro">
+            <h2>Nice to meet you !</h2>
+            <figure>
+                <img src="images/images.jpeg" alt="My Profile" class="profileImage">
+                <figcaption id="introduction" class="light">My name is Norman</figcaption>
+            </figure>
+        </section>
+        <section class="datetime">
+            <fieldset>
+                <legend>Date Time Section</legend>
+                <input type="radio" name="datetime" value="date"  id="dateradio" checked>
+                <label for="dateradio">Date</label>
+                <input type="radio" name="datetime" value="time"  id="timeradio">
+                <label for="timeradio">Time</label> 
+                <button id="datetimeButton">Add Here</button>
+            </fieldset>
+            <div id="dateTimePanel"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p class="copyright">&copy; 2022 - All Rights Reserved.</p>
+        <a href="https://github.com/normankong" title="GitHub"><img src="./images/github.png" title="GitHub"
+                class="icon"></a>
+        <a href="https://www.linkedin.com/in/norman-kong-21b1723b/"><img src="./images/linkedIn.png" title="LInkedIn"
+                class="icon"></a>
+        <a href="mailto:kong.ko@northeastern.edu"><img src="./images/email.png" title="Email" class="icon"></a>
+    </footer>
+
+</body>
+
+</html>

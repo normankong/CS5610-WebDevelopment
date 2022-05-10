@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(231,225,214);
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    border-bottom:#1050aa dotted 2px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h1{
+    color:#1050aa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 2.2em;
+}
+
+#role {
+  font-weight: bold;  
+}
+
+.experience,
+.education{
+    border: 2px dotted chocolate;
+    margin: 10px 0px 10px 0px;
+}
+
+a[href="https://github.com"]:hover {
+    color: crimson;
+}
+
+h2::first-letter{
+    font-size : 3rem
+}
+
+header a:last-child{
+    color: green;
+    margin-left:20px;
+}
+
+.education .education-list li:first-child{
+    font-style: italic;
+}
+
+.skills li{
+    list-style-type : none;
+}

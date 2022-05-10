@@ -1,0 +1,79 @@
+[
+    {
+        "symbol": "SPY",
+        "name": "SPDR S&P 500 ETF Trust",
+        "price": 442.83,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "GDX",
+        "name": "VanEck Gold Miners ETF",
+        "price": 40.72,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "EEM",
+        "name": "iShares MSCI Emerging Markets ETF",
+        "price": 44.8,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "XLF",
+        "name": "Financial Select Sector SPDR Fund",
+        "price": 37.22,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "EFA",
+        "name": "iShares MSCI EAFE ETF",
+        "price": 72.29,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "QQQ",
+        "name": "Invesco QQQ Trust",
+        "price": 345.87,
+        "exchange": "NASDAQ Global Market",
+        "exchangeShortName": "NASDAQ"
+    },
+    {
+        "symbol": "VWO",
+        "name": "Vanguard Emerging Markets Stock Index Fund",
+        "price": 45.9,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "FXI",
+        "name": "iShares China Large-Cap ETF",
+        "price": 31.95,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "IWM",
+        "name": "iShares Russell 2000 ETF",
+        "price": 200.81,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "AMLP",
+        "name": "Alerian MLP ETF",
+        "price": 39.93,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX"
+    },
+    {
+        "symbol": "UVXY",
+        "name": "ProShares Ultra VIX Short-Term Futures ETF",
+        "price": 13.16,
+        "exchange": "BATS",
+        "exchangeShortName": "ETF"
+    }
+]

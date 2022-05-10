@@ -1,0 +1,23 @@
+[
+    {
+        "symbol": "MULN",
+        "name": "Mullen Automotive, Inc.",
+        "change": -0.0601,
+        "price": 2.4099,
+        "changesPercentage": -2.4332016
+    },
+    {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "change": 2.1093,
+        "price": 97.2093,
+        "changesPercentage": 2.2179797
+    },
+    {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "change": 2.61,
+        "price": 170.27,
+        "changesPercentage": 1.5567223
+    }
+]

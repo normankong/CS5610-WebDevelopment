@@ -1,0 +1,57 @@
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.container {
+  max-width: 960px;
+}
+
+.note {
+  background-color: grey;
+  margin: 5px;
+  padding: 5px;
+}
+
+.note div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  text-align: left;
+}
+
+.icon:hover{
+  color: #2b10a5;
+  cursor: pointer;
+}
+
+.icon { color: white;
+  padding-left: 10px; } 
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:rgb(000, 128, 255);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.877);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:6px;
+}
+
+
+.header {
+  color:rgb(13, 110, 253);
+  display: table;
+  margin: 0 auto;
+}
