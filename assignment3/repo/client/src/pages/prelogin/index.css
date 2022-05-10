@@ -1,0 +1,15 @@
+.carousel-item {
+  width: 640px;
+  height: 400px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.carousel {
+  overflow: hidden;
+  background-color: white;
+}
+
+.carousel.card-caption {
+    border-radius: 20px;
+}
