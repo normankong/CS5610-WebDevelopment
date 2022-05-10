@@ -7,14 +7,14 @@ cd client
 npm run build
 
 # Sync the Client Heroku Public folder
-rsync -avh                             build/  ../heroku/public --delete
+rsync -avh                             build/  ../deployment/public --delete
 
 cd ../server
 # Sync Server to Heroku folder
-rsync -avh --exclude='node_modules/'       .   ../heroku/
+rsync -avh --exclude='node_modules/'       .   ../deployment/
 
 # Go to the folder
-cd ../heroku
+cd ../deployment
 
 # Add to remote
 # git init
