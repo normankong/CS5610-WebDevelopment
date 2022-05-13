@@ -47,7 +47,7 @@ git add .
 git commit -am "Add new feature"
 git push heroku main
 
-<<<<<<< HEAD
+
 # Accessibility Report
 ![PreLogin Screen](report/page1.png)
 ![Home Screen](report/page2.png)
@@ -55,9 +55,6 @@ git push heroku main
 ![Search Screen](report/page4.png)
 ![Detail Screen](report/page5.png)
 
-
-=======
->>>>>>> bac20e0ba3ee33439c295f444782118487fc85e1
 ## Project Requirement from Canvas
 
 ### Homepage
