@@ -2,7 +2,7 @@
 
 ## Project Demostration
 
-Application running on [heroku](https://agile-tundra-51773.herokuapp.com/notes)
+Application running on [heroku](https://fooglekeep.herokuapp.com/notes)
 
 ## Project Objective
 - This is a note taking application 
